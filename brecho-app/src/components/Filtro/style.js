@@ -9,7 +9,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 `
-export const filterCategory = styled.div`
+export const FilterCategory = styled.div`
 
 `
 export const CategoryTitle = styled.div`

@@ -1,7 +1,7 @@
 
 import { Category } from '@mui/icons-material';
 import {product} from '../../data/data'
-import { ContainerFilter, CategoryTitle, CategoryButton, SortLabel } from './style';
+import { ContainerFilter, CategoryTitle, CategoryButton, SortLabel, FilterCategory } from './style';
 
 
 const Filtros = ({setProduto, sortPrice, setSortPrice }) => {
@@ -16,7 +16,7 @@ const Filtros = ({setProduto, sortPrice, setSortPrice }) => {
     
   return (
     <ContainerFilter>
-    <filterCategory>
+    <FilterCategory>
     <CategoryTitle>
       <h3>Categorias</h3>
     </CategoryTitle>
@@ -25,7 +25,7 @@ const Filtros = ({setProduto, sortPrice, setSortPrice }) => {
         <CategoryButton onClick={() => filterResult('blusa')}>Blusas</CategoryButton>
         <CategoryButton onClick={() => filterResult('casaco')}>Casacos</CategoryButton>
     
-    </filterCategory>
+    </FilterCategory>
 
      <div>
      <SortLabel>
