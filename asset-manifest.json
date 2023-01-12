@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/static/js/main.2d1f193c.js",
+    "static/media/mastercard.svg": "/static/media/mastercard.9737b769fb9b438beb54806629bc8569.svg",
+    "static/media/ncard.svg": "/static/media/ncard.868a72d94fd046a6267f780d2e1601e4.svg",
+    "static/media/amex.svg": "/static/media/amex.a61d1f67f93f57de849a10b09accca65.svg",
+    "static/media/hipercard.svg": "/static/media/hipercard.01101bd36c648e6a127319ea36e2c382.svg",
+    "static/media/boleto.svg": "/static/media/boleto.bb43ee504c464bb5d2a7f5dbee312cc5.svg",
+    "static/media/elo.svg": "/static/media/elo.70581473bb3241bbc3bf172a58f3bbea.svg",
+    "index.html": "/index.html",
+    "static/media/pix.svg": "/static/media/pix.c9fc4d4b4c79ab8670db8a41b510ee00.svg",
+    "static/media/visa.svg": "/static/media/visa.99031cc54e866a8efb8bc5799844db3c.svg",
+    "static/media/dinersclub.svg": "/static/media/dinersclub.9337ab21cbc60c2fa0db78ad8376cd3c.svg",
+    "main.2d1f193c.js.map": "/static/js/main.2d1f193c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2d1f193c.js"
+  ]
+}
