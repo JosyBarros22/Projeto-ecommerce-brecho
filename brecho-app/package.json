@@ -1,6 +1,10 @@
 {
   "name": "brecho-app",
+<<<<<<< HEAD
   "homepage": "https://josybarros22.github.io/Projeto-ecommerce-brecho/", 
+=======
+  "homepage": "https://josybarros22.github.io/Projeto-ecommerce-brecho",
+>>>>>>> a3f0eab29e4dce25fbc1938650f49fcce580ed0f
   "version": "0.1.0",
   "private": true,
   "dependencies": {
