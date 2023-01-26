@@ -25,13 +25,19 @@ const Home = () => {
 
 
   const addToCart = (data) => {
+
+    const foundedItem = cart.find((item) => item.id === data.id);
+
+    if(foundedItem) {
+      setCart(cart.map((carts) => (
+        carts.id === data.id ? {...foundedItem, quantity : foundedItem.quantity + 1} : carts
+      )));
+    } else {
     setCart([...cart, { ...data, quantity: 1 }])
+    }
 
     setItem('carrinho', [...cart, data])
-    // alert("Produto já adicionado no carrinho!")
-
-
-  }
+   }
 
 
   const addItemCart = (id) => {
