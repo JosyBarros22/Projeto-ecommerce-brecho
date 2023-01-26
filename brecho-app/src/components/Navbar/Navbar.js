@@ -27,6 +27,7 @@ const Navbar = ({busca, setBusca, count, setModalCart}) => {
                         />
                         <SearchIcon style={{color: "black", fontSize:22}} />
                     </SearchContainer>
+                    
                 </Search>
                 <Menu>
                     <MenuItem><FavoriteBorderOutlinedIcon style={{color: "white"}}/>Lista de desejos</MenuItem>
